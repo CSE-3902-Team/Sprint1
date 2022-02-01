@@ -39,7 +39,7 @@ namespace Sprint0
 
             if (frame <= 15)
             {
-                position.Y += 10*speed;
+                position.Y += 1*speed;
             }
             else if (frame > 15)
             {

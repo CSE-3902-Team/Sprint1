@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+//Ting Feng is Goated
+
 namespace Sprint0
 {
     public class Game1 : Game
@@ -10,10 +12,11 @@ namespace Sprint0
         private SpriteBatch _spriteBatch;
         private ISprite sprite;
         private ISprite text;
-        private Texture2D spriteTexture;
-        private Texture2D textTexture;
         private IController kController;
         private IController mController;
+        private Texture2D spriteTexture;
+        private Texture2D textTexture;
+        
 
         public Game1()
         {

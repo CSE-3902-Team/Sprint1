@@ -35,23 +35,8 @@ namespace Sprint0.TileClass
             myBatch.End();
         }
 
-        public Texture2D Texture
-        {
-            get { return this.myTile; }
-            set { myTile = value; }
-        }
-
-        public float Speed
-        {
-            get;
-            set;
-        }
-
-        public Vector2 Position
-        {
-            get;
-            set;
-        }
+      
+       
     }
 
 }

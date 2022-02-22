@@ -11,7 +11,9 @@ namespace Sprint0.TileClass
 		private SpriteBatch myBatch;
         private Rectangle sourceRect;
 
-		public BrickTile(Texture2D tile, SpriteBatch batch, Vector2 position)
+        
+
+        public BrickTile(Texture2D tile, SpriteBatch batch, Vector2 position)
         {
 			myTile = tile;
 			myBatch = batch;
@@ -35,23 +37,7 @@ namespace Sprint0.TileClass
             myBatch.End();
         }
 
-        public Texture2D Texture
-        {
-            get { return this.myTile; }
-            set { myTile = value; }
-        }
-
-        public float Speed
-        {
-            get;
-            set;
-        }
-
-        public Vector2 Position
-        {
-            get;
-            set;
-        }
+        
     }
 
 }
